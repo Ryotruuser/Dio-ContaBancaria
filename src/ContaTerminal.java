@@ -1,7 +1,6 @@
+import java.text.DecimalFormat;
 import java.util.Locale;
 import java.util.Scanner;
-import java.math.BigDecimal;
-
 
 public class ContaTerminal {
     public static void main(String [] args){
@@ -26,12 +25,11 @@ public class ContaTerminal {
 
         System.out.println("Por favor, digite o valor do deposito: ");
         saldo = scanner.nextDouble();
-        BigDecimal saldoFormatado = new BigDecimal(saldo);
-        saldoFormatado.setScale(2, BigDecimal.ROUND_HALF_UP);
-
+        DecimalFormat df = new DecimalFormat("#.00");
+        String saldoFormatado = df.format(saldo);
+        
         //exibir na tela
-        String mensagemCliente = String.format("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo %f já está disponível para saque",nomeCliente, agencia, numero, saldoFormatado);
-        System.out.println(mensagemCliente);
+        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numero + " e seu saldo "+ saldoFormatado +" já está disponível para saque");
 
 
 
