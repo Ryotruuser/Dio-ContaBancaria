@@ -1,18 +1,39 @@
-## Getting Started
+# Projeto ContaBanco 💰
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição do Projeto
 
-## Folder Structure
+O projeto ContaBanco é uma aplicação simples desenvolvida em Java que permite aos usuários inserir informações sobre uma conta bancária via terminal e exibir uma mensagem de boas-vindas com os dados inseridos.
 
-The workspace contains two folders by default, where:
+## Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **Inserção de Dados:** Os usuários podem inserir os seguintes dados sobre uma conta bancária:
+  - Número da conta
+  - Agência
+  - Nome do cliente
+  - Saldo
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Exibição de Mensagem de Boas-vindas:** Após a inserção dos dados, o sistema exibe uma mensagem personalizada de boas-vindas, incluindo os dados da conta bancária fornecidos pelo usuário.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Como Executar o Projeto 🚀
 
-## Dependency Management
+Para executar o projeto, siga as etapas abaixo:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Clone este repositório para sua máquina local.
+
+```bash
+git clone https://github.com/seu-usuario/ContaBanco.git
+```
+2. Abra o projeto em sua IDE preferida (por exemplo, IntelliJ IDEA, Eclipse).
+3. Navegue até a classe ContaTerminal.java e execute-a.
+4. Siga as instruções no terminal para inserir os dados da conta bancária quando solicitado.
+5. Após inserir todos os dados, o sistema exibirá a mensagem de boas-vindas com as informações fornecidas.
+
+## Contribuição 🤝
+Se você quiser contribuir com melhorias ou correções para este projeto, sinta-se à vontade para enviar uma solicitação de pull. Sua contribuição é muito bem-vinda!
+
+## Contato 📧
+
+Se tiver alguma dúvida ou precisar de ajuda, sinta-se à vontade para entrar em contato:
+
+- [LinkedIn](https://www.linkedin.com/in/ryotruuser)
+- Email: riionansr@gmail.com
